@@ -1,0 +1,4 @@
+age_str = input('What is the age of your dog? ')
+age = int(age_str)
+print('The age of your dog in human years is')
+print(age * 8)
