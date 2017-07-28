@@ -1,0 +1,11 @@
+print('What is your name?')
+myName = input()
+print('It is nice to meet you, ' + myName)
+print('What is your favorite color?')
+mycolor = input()
+print(mycolor + '? , thats a nice color')
+print('What is your favorite food?')
+myfood = input()
+print(myfood + ' sounds YUMMYYY!!!!')
+input('Do you have to go?')
+while 
