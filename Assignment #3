@@ -1,11 +1,12 @@
-print('What is your name?')
-myName = input()
-print('It is nice to meet you, ' + myName)
-print('What is your favorite color?')
-mycolor = input()
-print(mycolor + '? , thats a nice color')
-print('What is your favorite food?')
-myfood = input()
-print(myfood + ' sounds YUMMYYY!!!!')
-input('Do you have to go?')
-while 
+def userInfo():
+  userName = str(input("What is your name?"))
+  print("Nice to meet you", userName)
+  userColor = str(input("What is your favorite color?"))
+  print(userColor, "?", "That's a nice color")
+  userFood = str(input("What is your favorite food?"))
+  print(userFood, "sounds yummy")
+userInfo()
+userLeave = input("Would you like to leave now? :( ")
+while userLeave == "no":
+  userInfo()
+print("Have a blessed day!")
